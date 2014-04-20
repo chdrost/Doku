@@ -140,9 +140,35 @@ Der Datensatz wurde in Form einer CSV Datei zur Verfügung gestellt. Er besteht 
 	\item Erster Straßenname. Bsp: Essen-Heisingen
 	\item Zweiter Straßennahme ??????
 	\item Area-Verweis (über Loc\_Id) auf das Gebiet, in dem die Lokation liegt
-	\item 
+	\item Linear Reference ???????????
+	\item Verweis auf Vorgängerlokation (Loc\_Id) bezogen auf die Erfassungsrichtung
+	\item Verweis auf Nachfolgerlokation (Loc\_Id) bezogen auf die Erfassungsrichtung
+	\item Flag, ob Verkehr städtischen Charakters vorliegt (1=ja, 0=nein)
+	\item Verweis auf Lokation (Loc\_Id) einer anderen Straße an gleicher Stelle (zirkuläre Verkettung)
+	\item Verweis auf die nächste Lokation nach der Unterbrechung im Staßenverlauf (wahrscheinlich Loc\_Id)
+	\item Flag, ob Lokation in Erfassungsrichtung zugänglich ist (1=ja, 0=nein)
+	\item Flag, ob Lokation in Erfassungsrichtung verlassen werden kann (1=ja, 0=nein)
+	\item Flag, ob Lokation entgegen der Erfassungsrichtung zugänglich ist (1=ja, 0=nein)
+	\item Flag, ob Lokation entgegen der Erfassungsrichtung verlassen werden kann (1=ja, 0=nein)
+	\item Flag, ob Lokation in Erfassungsrichtung vorhanden ist (1=ja, 0=nein)
+	\item Flag, ob Lokation entgegen der Erfassungsrichtung vorhanden ist (1=ja, 0=nein)
+	\item Anschlussstellennummer/Knotenpunktnummer (bei BAB)
+	\item Nummer der in Erfassungsrichtung ausgewiesenen Umleitungsempfehlung
+	\item Nummer der entgegen der Erfassungsrichtung ausgewiesenen Umleitungsempfehlung
+	\item Flag, ob Datensatz bei Aktualisierungslauf gegenüber der Vorgängerversion verändert wurde (nur vor Release erkennbar 0=nein, 1=ja, 2=neu, 3=löschen)
+	\item Angabe, ob Lokation zum TERN-Netz gehört (1=ja, 0=nein)
+	\item Netzknotennummer der Lokation oder Netzknotennummer des vor der Lokation liegenden Netzknoten
+	\item Netzknotennummer des nach der Lokation liegenden Netzknoten
+	\item Entfernung der Lokation vom Netzknoten 1 (Angabe in m) in Richtung Netzknoten 2
+	\item Angabe der x-Koordinate nach WGS84 ohne vorangestellte Nullen (s. EN ISO 14819-3)
+	\item Angabe der y-Koordinate nach WGS84 ohne vorangestellte Nullen (s. EN ISO 14819-3)
+	\item Hinweis auf zuständige Polizeidienststelle (Nur Name)
+	\item Hinweis auf für Bearbeitung zuständiges Bundesland (Kurzzeichen nach StBA)
+	
+	
 \end{enumerate}	
 
+Die Felder 31-44 sind nicht dokumentiert.
 
 
 \newpage
