@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.5)  19 APR 2014 14:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.5)  20 APR 2014 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1075,21 +1075,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 \half@curly@height=\dimen32766 (local)
 \curly@shift=\dimen32765 (local)
 \total@box@width=\dimen32767 (local)
-[2] (./doku_ki-praktikum.lof)
+[2]
+Overfull \hbox (18.78168pt too wide) in paragraph at lines 158--159
+[]\OT1/cmr/m/n/12 Flag, ob Da-ten-satz bei Ak-tua-li-sie-rungs-lauf ge-gen[]ube
+r der Vorg[]angerversion ver[]andert
+ []
+
+[3] (./doku_ki-praktikum.lof)
 \tf@lof=\write5
 \openout5 = `doku_ki-praktikum.lof'.
 
- [3] (./doku_ki-praktikum.aux)
+ [4] (./doku_ki-praktikum.aux)
 Package logreq Info: Writing requests to 'doku_ki-praktikum.run.xml'.
 \openout1 = `doku_ki-praktikum.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10110 strings out of 493308
- 161140 string characters out of 6137817
+ 10111 strings out of 493308
+ 161157 string characters out of 6137817
  394900 words of memory out of 5000000
- 13412 multiletter control sequences out of 15000+600000
- 9142 words of font info for 32 fonts, out of 8000000 for 9000
+ 13413 multiletter control sequences out of 15000+600000
+ 9449 words of font info for 33 fonts, out of 8000000 for 9000
  961 hyphenation exceptions out of 8191
  38i,11n,38p,853b,1395s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -1098,10 +1104,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on doku_ki-praktikum.pdf (4 pages, 108351 bytes).
+Output written on doku_ki-praktikum.pdf (5 pages, 113972 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
