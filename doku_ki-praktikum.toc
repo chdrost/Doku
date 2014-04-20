@@ -3,3 +3,5 @@
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Aufbau des Datensatzes}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Erster Versuch der Interpretation}{3}
